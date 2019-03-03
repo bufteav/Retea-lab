@@ -1,10 +1,7 @@
-Lab1:
-crearea repozitorului pe git hub cu linkul : https://github.com/bufteav/Retea-lab.git
+Lab2:
+Studiind graful propus am stabilit dependenta dintre noduri.
+Cu ajutorul semafoarelor am organizat executia thread-urilor.
+Nodul 5 nu are nicio dependenta si lam setat simplu el fiind primul.
+Nodurile 2,3,4 depind de nodul 5 la care le-am setat dependenta.
+Nodul 1 este ultimul nod care depinde de celelalte noduri.
 
-comenzi:
-mkdir laborator - creez directoriul cu numele "laborator"
-cd laborator - setam directoriul laborator 
-git init-initializam repozitoriul local
-git add readme.txt-adaugam filul readme
-git commit -m " " - comitul failului 
-git remote add origin https://github.com/bufteav/Retea-lab.git - legatura dintre repozitoriul local si a celui de pe github
